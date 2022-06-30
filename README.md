@@ -1,6 +1,6 @@
 # assign_zigyprints
 To check the assign<br>
-Install mongoDB Compass on local machine and Postman<br>
+Install mongoDB Compass and Postman on local machine <br>
 Following Steps should be followed:<br>
 Start server<br>
 1.npm i<br>
