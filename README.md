@@ -1,33 +1,32 @@
 # assign_zigyprints
-To check the assign 
-Install mongo Compass on local machine and Postman
-Following Steps should be followed:
-
-Start server
-1.npm i 
-2.npm start
-
-In postman 
-1.To add user
-Set request type = post 
-url = http://localhost:8000/addUser
-and in body select raw and object of type JSON(application/json) should be selected
-
-{
-    "fname":"Zigy",
-    "lname":"Prints",
-    "email": "zigyprints@gmail.com",
-    "phone":7903165083
+To check the assign<br>
+Install mongo Compass on local machine and Postman<br>
+Following Steps should be followed:<br>
+Start server<br>
+1.npm i<br>
+2.npm start<br><br>
+In postman <br>
+1.To add user<br>
+Set request type = post <br>
+url = http://localhost:8000/addUser<br>
+and in body select raw and object of type JSON(application/json) should be selected<br>
+<br>
+{<br>
+    "fname":"Zigy",<br>
+    "lname":"Prints",<br>
+    "email": "zigyprints@gmail.com",<br>
+    "phone":7903165083<br>
 }
 
-2.To delete user
-Set request type = delete 
-url = http://localhost:8000/deleteUser
-and in body select raw and object of type JSON(application/json) should be selected
+2.To delete user<br>
+Set request type = delete <br>
+url = http://localhost:8000/deleteUser<br>
+and in body select raw and object of type JSON(application/json) should <br>be selected<br>
 
-{
-    "email": "zigyprints@gmail.com"
-}
-
-In mongoDb Compass:
-following data is reflected in database with db 'zigy' collection name 'users'
+{<br>
+    "email": "zigyprints@gmail.com"<br>
+}<br>
+<br>
+In mongoDb Compass:<br>
+following data is reflected in database with db name 'zigy' collection name 'users'<br>
+</p >
